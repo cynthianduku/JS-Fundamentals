@@ -1,27 +1,25 @@
 # JS-Fundamentals
 
-This repository contains basic JavaScript scripts for learning and practicing fundamental concepts in the language.
+This repository contains basic JavaScript scripts focused on command line arguments, control flow, loops, functions, and recursion.
 
-## Project Overview
+## Scripts Overview
 
-The goal of this project is to practice using `const`, `console.log`, and proper syntax in JavaScript. Each script focuses on a small concept or requirement, building a solid foundation in the language.
+- `0-javascript_is_amazing.js` — Prints “JavaScript is amazing”.
+- `1-multi_languages.js` — Prints 3 lines using multiple `console.log`.
+- `2-arguments.js` — Prints messages based on number of arguments.
+- `3-value_argument.js` — Prints first argument or “No argument”.
+- `4-concat.js` — Prints two arguments as "<arg1> is <arg2>".
+- `5-to_integer.js` — Converts first argument to integer and prints it or “Not a number”.
+- `6-multi_languages_loop.js` — Prints multiple lines using a loop and an array.
+- `7-multi_c.js` — Prints “C is fun” x times.
+- `8-square.js` — Prints a square of X characters.
+- `9-add.js` — Prints the result of adding two numbers.
+- `10-factorial.js` — Recursively computes the factorial of a number.
 
-## File Descriptions
+## Usage
 
-- **0-javascript_is_amazing.js**  
-  A script that prints the message:  
-  `JavaScript is amazing`  
-  using a constant variable and `console.log`.
-
-## Requirements
-
-- All scripts must be executed using Node.js.
-- No usage of `var`; only `const` or `let` is allowed.
-- All output must be printed using `console.log(...)`.
-
-## How to Run
-
-Make sure you have Node.js installed. Then run:
+Run each script using:
 
 ```bash
-node 0-javascript_is_amazing.js
+node <script_name> [args...]
+
